@@ -1,0 +1,7 @@
+go 1.25rc1
+
+use (
+	./cmd/product-api
+	./internal/product
+	./pkg/httpadapter
+)
