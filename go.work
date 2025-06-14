@@ -1,0 +1,11 @@
+go 1.24.3
+
+use (
+	./cmd/product-api
+	./internal/product
+	./pkg/httpadapter
+)
+
+replace github.com/ldez/go-monorepo-example/httpadapter v0.0.0-00010101000000-000000000000 => ./pkg/httpadapter
+
+replace github.com/ldez/go-monorepo-example/product v0.0.0-00010101000000-000000000000 => ./internal/product
