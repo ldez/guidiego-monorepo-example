@@ -2,7 +2,11 @@ module github.com/ldez/go-monorepo-example/product-api
 
 go 1.24.3
 
-require github.com/labstack/echo/v4 v4.13.4
+require (
+	github.com/labstack/echo/v4 v4.13.4
+	github.com/ldez/go-monorepo-example/httpadapter v0.0.0-00010101000000-000000000000
+	github.com/ldez/go-monorepo-example/product v0.0.0-00010101000000-000000000000
+)
 
 require (
 	github.com/labstack/gommon v0.4.2 // indirect
