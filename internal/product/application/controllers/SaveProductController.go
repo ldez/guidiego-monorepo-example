@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
-	"product/application/dtos"
-	"product/application/usecases"
+	"github.com/ldez/go-monorepo-example/product/application/dtos"
+	"github.com/ldez/go-monorepo-example/product/application/usecases"
 )
 
 type SaveProductController struct {

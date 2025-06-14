@@ -3,7 +3,7 @@ package app
 import (
 	"fmt"
 
-	"httpadapter"
+	"github.com/ldez/go-monorepo-example/httpadapter"
 )
 
 var dependencies *Dependencies

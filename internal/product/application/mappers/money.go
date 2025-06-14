@@ -1,7 +1,7 @@
 package mappers
 
 import (
-	"product/domain/valueobjects"
+	"github.com/ldez/go-monorepo-example/product/domain/valueobjects"
 )
 
 func FromStringToMoney(priceString string) *valueobjects.Money {

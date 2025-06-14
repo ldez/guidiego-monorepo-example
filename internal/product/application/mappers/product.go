@@ -1,8 +1,8 @@
 package mappers
 
 import (
-	"product/application/dtos"
-	"product/domain/entities"
+	"github.com/ldez/go-monorepo-example/product/application/dtos"
+	"github.com/ldez/go-monorepo-example/product/domain/entities"
 )
 
 func FromProductDomainToDTO(product *entities.Product) *dtos.Product {

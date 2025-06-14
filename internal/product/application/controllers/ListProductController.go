@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"product/application/usecases"
+	"github.com/ldez/go-monorepo-example/product/application/usecases"
 )
 
 type ListProductController struct {

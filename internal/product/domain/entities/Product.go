@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"product/domain/valueobjects"
+	"github.com/ldez/go-monorepo-example/product/domain/valueobjects"
 )
 
 type Product struct {

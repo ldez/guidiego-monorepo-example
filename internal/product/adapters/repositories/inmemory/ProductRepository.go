@@ -1,6 +1,6 @@
 package repositories
 
-import "product/domain/entities"
+import "github.com/ldez/go-monorepo-example/product/domain/entities"
 
 type InMemoryProductRepository struct {
 	data map[string]*entities.Product

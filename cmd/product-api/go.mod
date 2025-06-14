@@ -1,4 +1,4 @@
-module product-api
+module github.com/ldez/go-monorepo-example/product-api
 
 go 1.24.3
 

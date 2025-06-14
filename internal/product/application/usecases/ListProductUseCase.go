@@ -1,9 +1,9 @@
 package usecases
 
 import (
-	"product/application/dtos"
-	"product/application/mappers"
-	"product/domain/repositories"
+	"github.com/ldez/go-monorepo-example/product/application/dtos"
+	"github.com/ldez/go-monorepo-example/product/application/mappers"
+	"github.com/ldez/go-monorepo-example/product/domain/repositories"
 )
 
 type ListProductUseCase struct {

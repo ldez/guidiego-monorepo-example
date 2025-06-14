@@ -2,9 +2,9 @@ package app
 
 import (
 	"github.com/labstack/echo/v4"
-	repositories "product/adapters/repositories/inmemory"
-	"product/application/controllers"
-	"product/application/usecases"
+	repositories "github.com/ldez/go-monorepo-example/product/adapters/repositories/inmemory"
+	"github.com/ldez/go-monorepo-example/product/application/controllers"
+	"github.com/ldez/go-monorepo-example/product/application/usecases"
 )
 
 type (
